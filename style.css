@@ -8,6 +8,7 @@
   text-decoration: none;
 }
 
+
 body{
     background-attachment: fixed;
     background-image: linear-gradient(to right bottom, #4C4FD9, #57b8f8, #3181A3, #3235cc, #57b0f8) ;
@@ -39,17 +40,18 @@ header{
     color: rgb(255, 255, 255);
 }
 main{
+    background-color: rgba(0, 0, 0, 0.596); 
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
+
 h2{
     display: flex;
     margin-bottom: 20px;
 }
 .sobre{
-    background-color: rgba(0, 0, 0, 0.596);
     display: flex;
     flex-direction: row;
     margin: 40px;
@@ -57,7 +59,6 @@ h2{
     border-radius: 5px;
     color: white;
 }
-
 
 .sobre-mim{
     display: flex;
@@ -72,11 +73,21 @@ h2{
     display: flex;
     flex-direction: row;
 }
-
-.img-projetos{    
-    display: flex;
-    flex-direction: column;
+.projetos{
+    height: 400px;
+}
+.projetos-h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
     
+}
+
+.img-projetos{   
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-radius: 5px;
+    color: white;
 }
 
 .img-projetos li{
